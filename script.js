@@ -1,11 +1,3 @@
-console.log('Mandando oi pro amigo')
+const consultaCep = fetch('https://viacep.com.br/ws/01001000/json/');
 
-function mandaMensagem() {
-   console.log('Tudo bem');
-   console.log('Vou ');
-   console.log('Até');
-}
-
-mandaMensagem()
-
-console.log('tchau');
+console.log(consultaCep);
